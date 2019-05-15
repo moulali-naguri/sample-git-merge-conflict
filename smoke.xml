@@ -1,0 +1,11 @@
+
+<suite name="Selenium-e2e-framework">
+	<test name="testngTest">
+		<classes>
+			<class name="com.company.app.myApp.AppTest" />
+				<methods>
+					<exclude name="check2" />
+				</methods>
+		</classes>
+	</test>
+</suite>
